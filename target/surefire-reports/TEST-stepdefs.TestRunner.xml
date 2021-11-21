@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="stepdefs.TestRunner" time="122.262" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="stepdefs.TestRunner" time="17.487" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.4+11"/>
@@ -62,10 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Login Feature" name="Positive login Scenario" time="45.773"/>
-  <testcase classname="Login Feature" name="Positive login Scenario with parameters" time="14.968"/>
-  <testcase classname="Login Feature" name="Positive login Scenario with multiple users" time="15.589"/>
-  <testcase classname="Login Feature" name="Positive login Scenario with multiple users" time="15.202"/>
-  <testcase classname="Login Feature" name="Negative login Scenario with multiple users" time="15.604"/>
-  <testcase classname="Login Feature" name="Negative login Scenario with multiple users" time="15.126"/>
+  <testcase classname="Login Feature" name="Positive login Scenario" time="17.487"/>
 </testsuite>

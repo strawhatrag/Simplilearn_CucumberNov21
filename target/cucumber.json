@@ -1,0 +1,114 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-21T19:05:11.074Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1758942400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.Setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Positive login Scenario",
+        "description": "",
+        "id": "login-feature;positive-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 807814500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11798289400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has navigated to the login page",
+            "match": {
+              "location": "LoginStepDefs.user_has_navigated_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127537500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters correct username and password",
+            "match": {
+              "location": "LoginStepDefs.user_enters_correct_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2963303300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the Login Button",
+            "match": {
+              "location": "LoginStepDefs.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be navigated to the home page",
+            "match": {
+              "location": "LoginStepDefs.user_should_be_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@LoginFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
